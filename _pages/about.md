@@ -1,26 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+awards: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm pursuing my master's at the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), under the guidance of Prof. [Juanyu Chen](http://people.iiis.tsinghua.edu.cn/~jychen/). Concurrently, I serve as a graduate researcher at [ISR Lab](http://people.iiis.tsinghua.edu.cn/~isrlab/), Tsinghua University. During the summer of 2023, I had the opportunity to collaborate as a visiting researcher with Prof. [Koushil Sreenath](https://me.berkeley.edu/people/koushil-sreenath/) at the [Hybrid Robotics](https://hybrid-robotics.berkeley.edu/) group, UC Berkeley.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to my master's, I completed my bachelor's from the [Department of Computer Science & Information Engineering](https://www.csie.ntu.edu.tw//?locale=en) at [National Taiwan University](https://www.ntu.edu.tw/english/). I've also interned as a software engineer at Google and Pony.ai.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research passion lies in machine learning and robotics. I am committed to developing efficient learning techniques for autonomous robots. The goal? Creating robots with resilient and adaptable behaviors to aid humans in a multitude of real-world applications.
+
+**I'm actively seeking a Robotics PhD position for Fall 2024.**

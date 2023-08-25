@@ -6,7 +6,7 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
+            <!-- {%- if site.title == "blank" -%} -->
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
               {%- endif -%}
@@ -16,9 +16,9 @@
               {%- if site.last_name -%}
                 {{- site.last_name -}}
               {%- endif -%}
-            {%- else -%}
+            <!-- {%- else -%}
               {{- site.title -}}
-            {%- endif -%}
+            {%- endif -%} -->
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -51,6 +51,13 @@
                   {%- endif -%}
                 </a>
               </li>
+
+              <!-- CV -->
+              <!-- <li class="nav-item {% if page.permalink == 'cv' %}active{% endif %}">
+                <a class="nav-link" href="assets/pdf/cv.pdf">Curriculum Vitae
+                </a>
+              </li> -->
+
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
