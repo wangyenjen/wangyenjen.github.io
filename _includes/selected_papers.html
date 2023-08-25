@@ -10,32 +10,52 @@
 <div class="publications">
   <h2>Selected Publications</h2>
   <p>(*: Equal Contribution)</p>
-  <!--{% assign publications = site.publications | sort: "year" | reverse %}-->
+
   {% assign sticky_pubs = site.publications | where_exp: "item", "item.sticky" | sort: "year" | reverse %}
   {% assign non_sticky_pubs = site.publications | where_exp: "item", "item.sticky != true" | sort: "year" | reverse %}
   {% assign publications = sticky_pubs | concat: non_sticky_pubs %}  
 
   {% for pub in publications %}
-  <div class="pubitem mb-3">
-    <div class="pubtitle">
-      {% if pub.official_link != '' %}
-        <a href={{ pub.official_link }}><span class="plain-link">{{ pub.title }}</span></a>
-      {% else %}
-        {{ pub.title }}
+  <div class="pubitem mb-3 row">
+    
+      <!-- Paper Information -->
+      <div class="col-md-8">
+          <div class="pubtitle">
+              <!-- Paper Title -->
+              {% if pub.official_link != '' %}
+              <a href="{{ pub.official_link }}"><span class="plain-link">{{ pub.title }}</span></a>
+              {% else %}
+              {{ pub.title }}
+              {% endif %}
+          </div>
+          <div class="pubauthors">{{ pub.authors }}</div>
+          <div class="pubinfo">
+              {{ pub.publication }}
+          </div>
+          <div class="row mt-1">
+              {% if pub.pdf != '' %}
+              <a href="{{ pub.pdf }}" class="badge badge-primary ml-3 mr-2 pl-2 pr-2">pdf</a>
+              {% endif %}
+              {% if pub.code != '' %}
+              <a href="{{ pub.code }}" class="badge badge-info mr-2 pl-2 pr-2">code</a>
+              {% endif %}
+              {% if pub.project_page != '' %}
+              <a href="{{ pub.project_page }}" class="badge badge-success mr-3 pl-2 pr-2">page</a>
+              {% endif %}
+          </div>
+      </div>
+
+      <!-- YouTube Video -->
+      {% if pub.youtube != '' %}
+      <div class="col-md-4">
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ pub.youtube | split: '=' | last }}" allowfullscreen></iframe>
+          </div>
+      </div>
       {% endif %}
-    </div>
-    <div class="pubauthors">{{ pub.authors }}</div>
-    <div class="pubinfo">
-      {{ pub.publication }}
-    </div>
-    <div class="row mt-1">
-      {% if pub.pdf != '' %}
-      <a href={{ pub.pdf }} class="badge badge-primary ml-3 mr-2 pl-2 pr-2">pdf</a>
-      {% endif %}
-      {% if pub.code != '' %}
-      <a href={{ pub.code }} class="badge badge-info mr-3 pl-2 pr-2">code</a>
-      {% endif %}
-    </div>
   </div>
+
+
+
   {% endfor %}
 </div>
