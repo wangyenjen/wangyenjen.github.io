@@ -1,0 +1,62 @@
+<style id="project_css">
+    .projtitle {
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    font-weight: bold;
+  }
+  </style>
+  
+  
+  <div class="publications">
+    <h2>Selected Projects</h2>
+    <p>(*: Equal Contribution)</p>
+  
+    {% assign sticky_projs = site.projects | where_exp: "item", "item.sticky" | sort: "year" | reverse %}
+    {% assign non_sticky_projs = site.projects | where_exp: "item", "item.sticky != true" | sort: "year" | reverse %}
+    {% assign projects = sticky_projs | concat: non_sticky_projs %}  
+  
+    {% for proj in projects %}
+    <div class="pubitem mb-3 row">
+      
+        <!-- Project Information -->
+        <div class="col-md-8">
+            <div class="pubtitle">
+                <!-- Project Title -->
+                {% if proj.official_link != '' %}
+                <a href="{{ proj.official_link }}"><span class="plain-link">{{ proj.title }}</span></a>
+                {% else %}
+                {{ proj.title }}
+                {% endif %}
+            </div>
+            <div class="pubauthors">{{ proj.authors }}</div>
+            <div class="pubinfo">
+                {{ proj.info }}
+            </div>
+            <div class="row mt-1">
+                {% if proj.pdf != '' %}
+                <a href="{{ proj.pdf }}" class="badge badge-primary ml-3 mr-2 pl-2 pr-2">pdf</a>
+                {% endif %}
+                {% if proj.code != '' %}
+                <a href="{{ proj.code }}" class="badge badge-info mr-2 pl-2 pr-2">code</a>
+                {% endif %}
+                {% if proj.project_page != '' %}
+                <a href="{{ proj.project_page }}" class="badge badge-success mr-3 pl-2 pr-2">page</a>
+                {% endif %}
+            </div>
+        </div>
+  
+        <!-- YouTube Video -->
+        {% if proj.youtube != '' %}
+        <div class="col-md-4">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ proj.youtube | split: '=' | last }}" allowfullscreen></iframe>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+  
+  
+  
+    {% endfor %}
+  </div>
+  
