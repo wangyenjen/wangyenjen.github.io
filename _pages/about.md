@@ -18,10 +18,10 @@ social: true  # includes social icons at the bottom of the page
 selected_projects: true
 ---
 
-I'm pursuing my master's at the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), under the guidance of Prof. [Juanyu Chen](http://people.iiis.tsinghua.edu.cn/~jychen/). Concurrently, I serve as a graduate researcher at [ISR Lab](http://people.iiis.tsinghua.edu.cn/~isrlab/), Tsinghua University. During the summer of 2023, I had the opportunity to collaborate as a visiting researcher with Prof. [Koushil Sreenath](https://me.berkeley.edu/people/koushil-sreenath/) at the [Hybrid Robotics](https://hybrid-robotics.berkeley.edu/) group, UC Berkeley.
+I'm a master's student at the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm), under the supervision of Prof. [Juanyu Chen](http://people.iiis.tsinghua.edu.cn/~jychen/). During the summer of 2023, I had the opportunity to collaborate as a visiting researcher with Prof. [Koushil Sreenath](https://me.berkeley.edu/people/koushil-sreenath/) at the [UC Berkeley](https://hybrid-robotics.berkeley.edu/).
 
 Prior to my master's, I completed my bachelor's from the [Department of Computer Science & Information Engineering](https://www.csie.ntu.edu.tw//?locale=en) at [National Taiwan University](https://www.ntu.edu.tw/english/). I've also interned as a software engineer at [Google](https://about.google/) and [Pony.ai](https://www.pony.ai/?lang=en).
 
-My research passion lies in machine learning and robotics. I am committed to developing efficient learning techniques for autonomous robots. The goal? Creating robots with resilient and adaptable behaviors to aid humans in a multitude of real-world applications.
+My research passion lies in machine learning, robotics, and fundamental models. My research goal is to develop an algorithm that enables a robot to tackle complex tasks, ultimately assisting people in addressing a variety of daily life challenges.
 
-**I'm actively seeking a Robotics PhD position for Fall 2024.**
+**I'm actively seeking PhD in robotics for Fall 2024.**
