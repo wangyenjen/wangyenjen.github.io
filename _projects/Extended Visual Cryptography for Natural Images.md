@@ -8,7 +8,7 @@ info: 'Description:
         <li>The two images are processed separately and printed on transparent plastic sheets. By overlapping these two plastic sheets, you can get the specified image.</li>
         <li>This is also one of the birthday gifts I prepared for my friend. : )</li>
     </ul>'
-year: 2022.04
+year: 2023.04
 pdf: ''
 code: https://github.com/wangyenjen/extended-visual-cryptograph-for-natural-images
 project_page: ''
