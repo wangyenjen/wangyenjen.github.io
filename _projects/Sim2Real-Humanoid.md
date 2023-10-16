@@ -10,7 +10,7 @@ info: 'Description:
         <li>Deploy the policy on real Robot Era&apos;s robot.</li>
         <li>The robot is designed by Prof. Jianyu Chen&apos;s startup.</li>
         <li>We are still working on the RL Sim2Real problem for locomotion. <br/>Our ultimate goal is that the robot can perform various complex locomotion skills.</li>
-        <li><strong>If you are interested in this robot or Robot Era, <br/>please feel free to contact Prof. Jianyu Chen or me. : )</strong></li>
+        <li><strong>If you are interested in humanoid robots or Robot Era, <br/>please feel free to contact Prof. Jianyu Chen or me. : )</strong></li>
     </ul>'
 year: 2023.06
 pdf: ''
