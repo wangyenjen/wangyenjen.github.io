@@ -28,6 +28,6 @@ Prior to my master's, I completed my bachelor's from the [Department of Computer
 
 **With a solid background in programming**, I've interned as a software engineer at [Google](https://about.google/) and [Pony.ai](https://www.pony.ai/?lang=en). Beyond academia and professional life, I'm deeply passionate about [competitive programming](https://en.wikipedia.org/wiki/Competitive_programming) and have been honored with numerous awards from international competitions.
 
-Last but not least, my research passion lies in machine learning, robotics, and fundamental models. My research goal is to **develop an algorithm that enables a robot to tackle complex tasks, ultimately assisting people in addressing a variety of daily life challenges.** 
+Last but not least, my research passion lies in machine learning, robotics, and fundamental models. My research goal is to **develop algorithms for robots that reduce the cost of skill learning and ultimately enhance their generalization capabilities.** 
 
 If my research or competitive programming interests you and you would like to discuss it further, please don't hesitate to drop me an email. : )
