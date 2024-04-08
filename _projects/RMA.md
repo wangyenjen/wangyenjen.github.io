@@ -7,7 +7,6 @@ info: 'Description:
         <li>An implementation for RMA: Rapid Motor Adaptation for Legged Robots.</li>
         <li>Train on Isaac Gym and deploy on Unitree Go1 Robot.</li>
         <li>This is an assignment prepared for Prof. Jianyu Chen’s Advanced Topics in Robotics course.</li>
-        <li>We have follow-up work based on RMA, but it has not been made public yet. : )</li>
     </ul>'
 year: 2023.04
 pdf: ''

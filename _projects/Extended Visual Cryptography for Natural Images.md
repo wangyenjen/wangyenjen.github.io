@@ -6,7 +6,6 @@ info: 'Description:
     <ul>
         <li>An unofficial C++ implementation for the Journal of WSCG. 2002, vol. 10, no. 1-2, p. 303-310 Extended Visual Cryptography for Natural Images.</li>
         <li>The two images are processed separately and printed on transparent plastic sheets. By overlapping these two plastic sheets, you can get the specified image.</li>
-        <li>This is also one of the birthday gifts I prepared for my friend. : )</li>
     </ul>'
 year: 2023.04
 pdf: ''
