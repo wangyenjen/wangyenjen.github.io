@@ -11,6 +11,6 @@ year: 2024.03
 pdf: ''
 code: https://github.com/roboterax/humanoid-gym
 project_page: https://sites.google.com/view/humanoid-gym/
-# youtube: https://www.youtube.com/watch?v=2YLWKlmyn7Y
+youtube: https://www.youtube.com/watch?v=xj6MtLfO248
 official_link: ''
 ---
