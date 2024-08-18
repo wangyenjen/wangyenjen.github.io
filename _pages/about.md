@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 selected_projects: true
 ---
 
-I'm 1-st year Ph.D. student at [UC Berkeley](https://www.berkeley.edu), advised by [Koushil Sreenath](https://me.berkeley.edu/people/koushil-sreenath/), and affiliated with [Hybrid Robotics](http://hybrid-robotics.berkeley.edu) and [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu). 
+I'm 1st-year Ph.D. student at [UC Berkeley](https://www.berkeley.edu), advised by [Koushil Sreenath](https://me.berkeley.edu/people/koushil-sreenath/), and affiliated with [Hybrid Robotics](http://hybrid-robotics.berkeley.edu) and [Berkeley Artificial Intelligence Research (BAIR)](https://bair.berkeley.edu). 
 
 Previously, I obtained my master's degree from [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I was advised by [Jianyu Chen](http://people.iiis.tsinghua.edu.cn/~jychen/), and I collaborate closely with [Huazhe Xu](http://hxu.rocks/). Prior to that, I completed my bachelor's degree at [National Taiwan University](https://www.ntu.edu.tw/english/).
 
