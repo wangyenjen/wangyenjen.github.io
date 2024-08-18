@@ -12,5 +12,4 @@ pdf: ''
 code: ''
 project_page: 'https://x.com/roboterax/status/1798694054374564010'
 youtube: https://www.youtube.com/watch?v=nx2YO3twZYs
-official_link: ''
 ---
