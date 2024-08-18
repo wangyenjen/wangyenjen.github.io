@@ -2,7 +2,7 @@
 layout: default
 title: 'Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer'
 authors: Xinyang Gu*, <strong>Yen-Jen Wang*</strong>, Jianyu Chen
-publication: In 2024 IEEE ICRA Workshop Agile Robotics
+publication: ICRA Workshop on Agile Robotics, 2024
 year: 2024.05
 pdf: https://arxiv.org/abs/2404.05695
 code: https://github.com/roboterax/humanoid-gym

@@ -2,8 +2,8 @@
 layout: default
 title: 'Prompt a Robot to Walk with Large Language Models'
 authors: <strong>Yen-Jen Wang</strong>, Bike Zhang, Jianyu Chen, Koushil Sreenath
-publication: In 2024 Conference on Decision and Control (CDC 2024)
-year: 2023.09
+publication: Conference on Decision and Control (CDC), 2024
+year: 2024.12
 pdf: https://arxiv.org/abs/2309.09969
 code: https://github.com/HybridRobotics/prompt2walk
 project_page: https://prompt2walk.github.io/
