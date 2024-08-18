@@ -9,7 +9,7 @@
   
   <div class="publications">
     <h2>Selected Projects</h2>
-    <!-- <p>(*: Equal Contribution)</p> -->
+    <p>(*: Equal contribution. Co-first Author.)</p>
   
     {% assign sticky_projs = site.projects | where_exp: "item", "item.sticky" | sort: "year" | reverse %}
     {% assign non_sticky_projs = site.projects | where_exp: "item", "item.sticky != true" | sort: "year" | reverse %}
