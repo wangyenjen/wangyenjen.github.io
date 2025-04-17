@@ -20,7 +20,7 @@ selected_projects: true
 
 Hi! I am Yen-Jen Wang, a first-year Ph.D. student at [UC Berkeley](https://www.berkeley.edu), advised by [Koushil Sreenath](https://me.berkeley.edu/people/koushil-sreenath/) in the [Hybrid Robotics Group (HRG)](http://hybrid-robotics.berkeley.edu) and [Berkeley Artificial Intelligence Research Lab (BAIR)](https://bair.berkeley.edu). 
 
-Previously, I obtained M.S. from [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/en/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/), where I was advised by [Jianyu Chen](http://people.iiis.tsinghua.edu.cn/~jychen/), and I also collaborate closely with [Huazhe Xu](http://hxu.rocks/). Prior to that, I completed B.S. in Computer Science at [National Taiwan University](https://www.ntu.edu.tw/english/). I have also spent time in [Google](https://www.google.com), [Pony.ai](https://www.pony.ai), [Robot Era](https://x.com/roboterax), and [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en) as interns.
+Previously, I obtained M.S. from [Tsinghua University](https://iiis.tsinghua.edu.cn/en/), where I was advised by [Jianyu Chen](http://people.iiis.tsinghua.edu.cn/~jychen/). Prior to that, I completed B.S. in Computer Science at [National Taiwan University](https://www.ntu.edu.tw/english/). I have also spent time in [Google](https://www.google.com), [Pony.ai](https://www.pony.ai), [Robot Era](https://x.com/roboterax), and [Shanghai Qi Zhi Institute](https://sqz.ac.cn/en) as interns.
 
 My research interests include **Robotics**, **Controls**, and **Embodied AI**, with a particular focus on **Humanoid Robots**. I also love [**competitive programming**](https://en.wikipedia.org/wiki/Competitive_programming).
 
